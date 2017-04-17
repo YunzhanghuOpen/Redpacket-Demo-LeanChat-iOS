@@ -77,6 +77,10 @@
 		8404330D1E9DFEC300ACAFAB /* calling_card_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A2669BF1D6DA89100B66545 /* calling_card_bg@2x.png */; };
 		8404330E1E9DFEC300ACAFAB /* LCCKLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A47303F1CECAEC500AEB86F /* LCCKLoginViewController.xib */; };
 		8404330F1E9DFEC300ACAFAB /* RedpacketCellResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9A53BE0E1D8BB13E00AAB118 /* RedpacketCellResource.bundle */; };
+		84BFBC7E1EA0D7E6000CBE48 /* RedPacketLuckView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BFBC7B1EA0D7E6000CBE48 /* RedPacketLuckView.m */; };
+		84BFBC7F1EA0D7E6000CBE48 /* RedPacketLuckView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BFBC7B1EA0D7E6000CBE48 /* RedPacketLuckView.m */; };
+		84BFBC801EA0D7E6000CBE48 /* RedpacketView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BFBC7D1EA0D7E6000CBE48 /* RedpacketView.m */; };
+		84BFBC811EA0D7E6000CBE48 /* RedpacketView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BFBC7D1EA0D7E6000CBE48 /* RedpacketView.m */; };
 		9A2669C81D6DA89100B66545 /* LCCKInputViewPluginConversationBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2669B81D6DA89100B66545 /* LCCKInputViewPluginConversationBackground.m */; };
 		9A2669C91D6DA89100B66545 /* LCCKVCardMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2669BD1D6DA89100B66545 /* LCCKVCardMessage.m */; };
 		9A2669CA1D6DA89100B66545 /* calling_card_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A2669BF1D6DA89100B66545 /* calling_card_bg@2x.png */; };
@@ -177,6 +181,10 @@
 		7AA80542B93A21303B03F801 /* libPods-ChatKit-OC-JDpay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChatKit-OC-JDpay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		840433181E9DFEC300ACAFAB /* ChatKit-OC-JDpay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChatKit-OC-JDpay.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		840433191E9DFEC400ACAFAB /* ChatKit-OC copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ChatKit-OC copy-Info.plist"; path = "/Users/admin/Documents/developer/leanchat-ios-master-2/ChatKit-OC/ChatKit-OC/ChatKit-OC copy-Info.plist"; sourceTree = "<absolute>"; };
+		84BFBC7A1EA0D7E6000CBE48 /* RedPacketLuckView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedPacketLuckView.h; sourceTree = "<group>"; };
+		84BFBC7B1EA0D7E6000CBE48 /* RedPacketLuckView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedPacketLuckView.m; sourceTree = "<group>"; };
+		84BFBC7C1EA0D7E6000CBE48 /* RedpacketView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedpacketView.h; sourceTree = "<group>"; };
+		84BFBC7D1EA0D7E6000CBE48 /* RedpacketView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedpacketView.m; sourceTree = "<group>"; };
 		9A0B721B1CED662D004FDACC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		9A0B721D1CED6637004FDACC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		9A0B721F1CED6644004FDACC /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
@@ -619,6 +627,10 @@
 		9A53BE221D8BB13E00AAB118 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				84BFBC7A1EA0D7E6000CBE48 /* RedPacketLuckView.h */,
+				84BFBC7B1EA0D7E6000CBE48 /* RedPacketLuckView.m */,
+				84BFBC7C1EA0D7E6000CBE48 /* RedpacketView.h */,
+				84BFBC7D1EA0D7E6000CBE48 /* RedpacketView.m */,
 				9A53BE231D8BB13E00AAB118 /* RedPacketChangeInputViewPlugin.h */,
 				9A53BE241D8BB13E00AAB118 /* RedPacketChangeInputViewPlugin.m */,
 				9A53BE251D8BB13E00AAB118 /* RedPacketInputViewPlugin.h */,
@@ -1212,6 +1224,7 @@
 				840432CE1E9DFEC300ACAFAB /* LCCKProfileNameEditViewController.m in Sources */,
 				840432CF1E9DFEC300ACAFAB /* LCCKSettingCell.m in Sources */,
 				840432D01E9DFEC300ACAFAB /* README.md in Sources */,
+				84BFBC811EA0D7E6000CBE48 /* RedpacketView.m in Sources */,
 				840432D11E9DFEC300ACAFAB /* LCCKSettingButtonCell.m in Sources */,
 				840432D21E9DFEC300ACAFAB /* NSDate+Utilities.m in Sources */,
 				840432D31E9DFEC300ACAFAB /* NSFileManager+LCCKExtension.m in Sources */,
@@ -1259,6 +1272,7 @@
 				840432FD1E9DFEC300ACAFAB /* LCCKUserGroupItemCell.m in Sources */,
 				840432FE1E9DFEC300ACAFAB /* RedPacketInputViewPlugin.m in Sources */,
 				840432FF1E9DFEC300ACAFAB /* REDPACKET.md in Sources */,
+				84BFBC7F1EA0D7E6000CBE48 /* RedPacketLuckView.m in Sources */,
 				840433001E9DFEC300ACAFAB /* LCCKVCardMessage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1275,6 +1289,7 @@
 				9A55EB351E00FC5A0079EB65 /* LCCKProfileNameEditViewController.m in Sources */,
 				9A562A381E03D52F00BB23DD /* LCCKSettingCell.m in Sources */,
 				9AB37B2D1DC86A60000782F2 /* README.md in Sources */,
+				84BFBC801EA0D7E6000CBE48 /* RedpacketView.m in Sources */,
 				9A562A371E03D52F00BB23DD /* LCCKSettingButtonCell.m in Sources */,
 				9AC3A4D41DF9C16A00F3405F /* NSDate+Utilities.m in Sources */,
 				9AC3A4CD1DF9C14500F3405F /* NSFileManager+LCCKExtension.m in Sources */,
@@ -1322,6 +1337,7 @@
 				9AC3A4DE1DF9C8BD00F3405F /* LCCKUserGroupItemCell.m in Sources */,
 				9A53BE351D8BB13E00AAB118 /* RedPacketInputViewPlugin.m in Sources */,
 				9AB37B2E1DC86A60000782F2 /* REDPACKET.md in Sources */,
+				84BFBC7E1EA0D7E6000CBE48 /* RedPacketLuckView.m in Sources */,
 				9A2669C91D6DA89100B66545 /* LCCKVCardMessage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

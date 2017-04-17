@@ -47,7 +47,7 @@
     self.tipMessageLabel.textColor = [UIColor colorWithRed:158/255.0 green:158/255.0 blue:158/255.0 alpha:1];
     self.tipMessageLabel.userInteractionEnabled = NO;
     self.tipMessageLabel.numberOfLines = 1;
-    [self.contentView addSubview:self.tipMessageLabel]; 
+    [self addSubview:self.tipMessageLabel];
 }
 
 - (void)updateConstraints {
