@@ -11,14 +11,14 @@
 #import "LCChatKit.h"
 #endif
 
-#import "RedpacketMessageModel.h"
+#import "AnalysisRedpacketModel.h"
 
 @interface AVIMTypedMessageRedPacketTaken : AVIMTypedMessage<AVIMTypedMessageSubclassing>
 
 /**
  *  红包相关数据模型
  */
-@property (nonatomic,strong)RedpacketMessageModel * rpModel;
+@property (nonatomic,strong) AnalysisRedpacketModel * rpModel;
 
 /**
  *  初始胡抢红包消息

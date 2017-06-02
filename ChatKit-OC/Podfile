@@ -18,32 +18,9 @@ pod 'TWMessageBarManager'
 pod 'MLPAutoCompleteTextField'
 #pod 'MLeaksFinder'
 pod 'FTPopOverMenu'
-pod 'RedpacketAliAuthLib'
+pod 'RedPacketAliAuthUI', :path => 'Example/Class/Module/Redpacket/cocoapods-redpacket-ui-2.0.0'
 pod "FXForms", "~> 1.2.14"
 
 end
 
-target 'ChatKit-OC-JDpay' do
-    # ignoring warning from pods
-    inhibit_all_warnings!
-    
-    #=========================================================
-    #======================== Lib Dependency =================
-    #=========================================================
-    pod 'ChatKit', :path => '../'
-    
-    #=========================================================
-    #======================== Demo Dependency ================
-    #=========================================================
-    
-    pod "CYLTabBarController", "~> 1.9.0"
-    pod "CYLTableViewRowAction", "1.0.0"
-    pod 'TWMessageBarManager'
-    pod 'MLPAutoCompleteTextField'
-    #pod 'MLeaksFinder'
-    pod 'FTPopOverMenu'
-    pod 'RedpacketLib'
-    pod "FXForms", "~> 1.2.14"
-    
-end
 

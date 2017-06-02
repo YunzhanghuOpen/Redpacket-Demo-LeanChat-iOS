@@ -7,15 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "YZHRedpacketBridgeProtocol.h"
+#import "RPRedpacketBridge.h"
 
-@interface RedpacketConfig : NSObject <YZHRedpacketBridgeDataSource>
+@interface RedpacketConfig : NSObject <RPRedpacketBridgeDelegate>
 
 + (instancetype)sharedConfig;
 /**
  *  获取当前红包用户
  */
-- (RedpacketUserInfo *)redpacketUserInfo;
+- (RPUserInfo *)redpacketUserInfo;
 /**
  *  设置消息体拦截
  */

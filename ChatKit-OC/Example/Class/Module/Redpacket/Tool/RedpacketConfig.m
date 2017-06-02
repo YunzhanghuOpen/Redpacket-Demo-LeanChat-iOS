@@ -13,14 +13,13 @@
 #import <UIKit/UIKit.h>
 #import "LCCKExampleConstants.h"
 #import "RedpacketConfig.h"
-#import "YZHRedpacketBridge.h"
-#import "RedpacketMessageModel.h"
+#import "AnalysisRedpacketModel.h"
 #import "AppDelegate+RedPacket.h"
 #import "AVIMTypedMessageRedPacketTaken.h"
 //	*此为演示地址* App需要修改为自己AppServer上的地址, 数据格式参考此地址给出的格式。
 static NSString *requestUrl = @"https://rpv2.yunzhanghu.com/api/sign?duid=";
 
-@interface RedpacketConfig ()<YZHRedpacketBridgeDelegate>
+@interface RedpacketConfig ()
 
 @end
 
@@ -31,16 +30,13 @@ static NSString *requestUrl = @"https://rpv2.yunzhanghu.com/api/sign?duid=";
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         config = [[RedpacketConfig alloc] init];
-        [[YZHRedpacketBridge sharedBridge] setDataSource:config];
-        [[YZHRedpacketBridge sharedBridge] setDelegate:config];
-        [[YZHRedpacketBridge sharedBridge] setRedacketURLScheme:@"redpacket.chatkit"];
-        [AppDelegate swizzleRedPacketMethod];
-        [YZHRedpacketBridge sharedBridge].isDebug = YES;
+        [RPRedpacketBridge sharedBridge].delegate = config;
+        [RPRedpacketBridge sharedBridge].isDebug = YES;//开发者调试的的时候，设置为YES，看得见日志。
     });
     return config;
 }
 
-- (RedpacketUserInfo *)redpacketUserInfo {
+- (RPUserInfo *)redpacketUserInfo {
     NSUserDefaults *defaultsGet = [NSUserDefaults standardUserDefaults];
     NSString *clientId = [defaultsGet stringForKey:LCCK_KEY_USERID];
     NSString *avatarURL;
@@ -51,10 +47,10 @@ static NSString *requestUrl = @"https://rpv2.yunzhanghu.com/api/sign?duid=";
             userName = user[LCCKProfileKeyName];
         }
     }
-    RedpacketUserInfo *user = [[RedpacketUserInfo alloc] init];
-    user.userId = clientId;
-    user.userNickname = userName.length?userName:clientId;
-    user.userAvatar = avatarURL;
+    RPUserInfo *user = [[RPUserInfo alloc] init];
+    user.userID = clientId;
+    user.userName = userName.length?userName:clientId;
+    user.avatar = avatarURL;
     return user;
 }
 
@@ -68,9 +64,9 @@ static NSString *requestUrl = @"https://rpv2.yunzhanghu.com/api/sign?duid=";
             [messages enumerateObjectsUsingBlock:^(AVIMTypedMessage *  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
                 
                 if ([obj isKindOfClass:[AVIMTypedMessageRedPacketTaken class]]) {
-                    RedpacketMessageModel * rpModel = [RedpacketMessageModel redpacketMessageModelWithDic:obj.attributes];
-                    if (![rpModel.redpacketSender.userId isEqualToString:self.redpacketUserInfo.userId] &&
-                        ![rpModel.redpacketReceiver.userId isEqualToString:self.redpacketUserInfo.userId] )
+                    AnalysisRedpacketModel * rpModel = [AnalysisRedpacketModel analysisRedpacketWithDict:obj.attributes andIsSender:YES];
+                    if (![rpModel.sender.userID isEqualToString:self.redpacketUserInfo.userID] &&
+                        ![rpModel.receiver.userID isEqualToString:self.redpacketUserInfo.userID] )
                     {
                         [messageArray removeObject:obj];
                     }
@@ -87,8 +83,8 @@ static NSString *requestUrl = @"https://rpv2.yunzhanghu.com/api/sign?duid=";
 }
 
 //红包token任何注册问题都会走此接口
-- (void)redpacketFetchRegisitParam:(FetchRegisitParamBlock)fetchBlock withError:(NSError *)error {
-    NSString *userId = self.redpacketUserInfo.userId;
+- (void)redpacketFetchRegisitParam:(RPFetchRegisitParamBlock)fetchBlock withError:(NSError *)error {
+    NSString *userId = self.redpacketUserInfo.userID;
     if(userId) {
         // 获取应用自己的签名字段。实际应用中需要开发者自行提供相应在的签名计算服务
         NSString *urlStr = [NSString stringWithFormat:@"%@%@",requestUrl, userId];
@@ -105,8 +101,11 @@ static NSString *requestUrl = @"https://rpv2.yunzhanghu.com/api/sign?duid=";
                     NSString *appUserId = [jsonObject valueForKey:@"user_id"];
                     NSString *timeStamp = [jsonObject valueForKey:@"timestamp"];
                     NSString *sign = [jsonObject valueForKey:@"sign"];
-                    RedpacketRegisitModel * regisitModel = [RedpacketRegisitModel signModelWithAppUserId:appUserId signString:sign partner:partner andTimeStamp:timeStamp];
-                    fetchBlock(regisitModel);
+                    RPRedpacketRegisitModel *model = [RPRedpacketRegisitModel signModelWithAppUserId:appUserId
+                                                                                          signString:sign
+                                                                                             partner:partner
+                                                                                        andTimeStamp:timeStamp];
+                    fetchBlock(model);
                 }
             }
         }] resume];

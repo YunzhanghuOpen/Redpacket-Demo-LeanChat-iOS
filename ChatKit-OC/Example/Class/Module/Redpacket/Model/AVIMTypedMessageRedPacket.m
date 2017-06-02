@@ -31,20 +31,17 @@
     return self;
 }
 
-- (void)setRpModel:(RedpacketMessageModel *)rpModel {
+- (void)setRpModel:(AnalysisRedpacketModel *)rpModel {
     _rpModel = rpModel;
-    [rpModel.redpacketMessageModelToDic enumerateKeysAndObjectsUsingBlock:^(id  _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
-        [self setObject:obj forKey:key];
-    }];
-    [self lcck_setObject:[NSString stringWithFormat:@"%@：[红包]%@",rpModel.redpacketSender.userNickname,rpModel.redpacket.redpacketGreeting] forKey:LCCKCustomMessageTypeTitleKey];
+    [self lcck_setObject:[NSString stringWithFormat:@"%@：[红包]%@",rpModel.sender.userName,rpModel.greeting] forKey:LCCKCustomMessageTypeTitleKey];
 }
 
-- (RedpacketMessageModel *)rpModel {
+- (AnalysisRedpacketModel *)rpModel {
     if (!_rpModel) {
         NSError * error;
         NSDictionary * attributes = [NSJSONSerialization JSONObjectWithData:[self.payload dataUsingEncoding:NSUTF8StringEncoding] options:NSJSONReadingMutableLeaves error:&error];
         if (!error) {
-            _rpModel = [RedpacketMessageModel redpacketMessageModelWithDic:attributes];
+            _rpModel = [AnalysisRedpacketModel analysisRedpacketWithDict:attributes andIsSender:YES];
         }else{
             _rpModel = nil;
         }
