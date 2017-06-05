@@ -15,7 +15,8 @@
 		84F97B961EE16C6000CB9BDA /* AppDelegate+Redpacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F97B8C1EE16C6000CB9BDA /* AppDelegate+Redpacket.m */; };
 		84F97B971EE16C6000CB9BDA /* RPRedpacketConstValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F97B8E1EE16C6000CB9BDA /* RPRedpacketConstValues.m */; };
 		84F97B981EE16C6000CB9BDA /* RPRedpacketUnionHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F97B901EE16C6000CB9BDA /* RPRedpacketUnionHandle.m */; };
-		84F97B9B1EE1837600CB9BDA /* RedPacketInputViewPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F97B9A1EE1837600CB9BDA /* RedPacketInputViewPlugin.m */; };
+		84F97BAC1EE5135200CB9BDA /* RedPacketIncomeViewPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F97BA91EE5135200CB9BDA /* RedPacketIncomeViewPlugin.m */; };
+		84F97BAD1EE5135200CB9BDA /* RedPacketInputViewPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F97BAB1EE5135200CB9BDA /* RedPacketInputViewPlugin.m */; };
 		9A2669C81D6DA89100B66545 /* LCCKInputViewPluginConversationBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2669B81D6DA89100B66545 /* LCCKInputViewPluginConversationBackground.m */; };
 		9A2669C91D6DA89100B66545 /* LCCKVCardMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2669BD1D6DA89100B66545 /* LCCKVCardMessage.m */; };
 		9A2669CA1D6DA89100B66545 /* calling_card_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A2669BF1D6DA89100B66545 /* calling_card_bg@2x.png */; };
@@ -111,8 +112,10 @@
 		84F97B8E1EE16C6000CB9BDA /* RPRedpacketConstValues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPRedpacketConstValues.m; sourceTree = "<group>"; };
 		84F97B8F1EE16C6000CB9BDA /* RPRedpacketUnionHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPRedpacketUnionHandle.h; sourceTree = "<group>"; };
 		84F97B901EE16C6000CB9BDA /* RPRedpacketUnionHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPRedpacketUnionHandle.m; sourceTree = "<group>"; };
-		84F97B991EE1837600CB9BDA /* RedPacketInputViewPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RedPacketInputViewPlugin.h; path = ../../../../../../../../game/RedPacketInputViewPlugin.h; sourceTree = "<group>"; };
-		84F97B9A1EE1837600CB9BDA /* RedPacketInputViewPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RedPacketInputViewPlugin.m; path = ../../../../../../../../game/RedPacketInputViewPlugin.m; sourceTree = "<group>"; };
+		84F97BA81EE5135200CB9BDA /* RedPacketIncomeViewPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedPacketIncomeViewPlugin.h; sourceTree = "<group>"; };
+		84F97BA91EE5135200CB9BDA /* RedPacketIncomeViewPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedPacketIncomeViewPlugin.m; sourceTree = "<group>"; };
+		84F97BAA1EE5135200CB9BDA /* RedPacketInputViewPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedPacketInputViewPlugin.h; sourceTree = "<group>"; };
+		84F97BAB1EE5135200CB9BDA /* RedPacketInputViewPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedPacketInputViewPlugin.m; sourceTree = "<group>"; };
 		9A0B721B1CED662D004FDACC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		9A0B721D1CED6637004FDACC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		9A0B721F1CED6644004FDACC /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
@@ -522,8 +525,10 @@
 		9A53BE071D8BB13E00AAB118 /* Redpacket */ = {
 			isa = PBXGroup;
 			children = (
-				84F97B991EE1837600CB9BDA /* RedPacketInputViewPlugin.h */,
-				84F97B9A1EE1837600CB9BDA /* RedPacketInputViewPlugin.m */,
+				84F97BA81EE5135200CB9BDA /* RedPacketIncomeViewPlugin.h */,
+				84F97BA91EE5135200CB9BDA /* RedPacketIncomeViewPlugin.m */,
+				84F97BAA1EE5135200CB9BDA /* RedPacketInputViewPlugin.h */,
+				84F97BAB1EE5135200CB9BDA /* RedPacketInputViewPlugin.m */,
 				84F97B7F1EE16C6000CB9BDA /* RedpacketPublic */,
 				9A53BE081D8BB13E00AAB118 /* Model */,
 				9A53BE0F1D8BB13E00AAB118 /* Tool */,
@@ -957,7 +962,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84F97B9B1EE1837600CB9BDA /* RedPacketInputViewPlugin.m in Sources */,
 				9A47306F1CECAEC500AEB86F /* LCCKPlusButtonSubclass.m in Sources */,
 				9A4730671CECAEC500AEB86F /* LCCKLoginViewController.m in Sources */,
 				9AC3A4DD1DF9C8BD00F3405F /* LCCKUserGroupCell.m in Sources */,
@@ -996,6 +1000,7 @@
 				9AC3A4B91DF9BEE600F3405F /* UIColor+LCCKExtension.m in Sources */,
 				84F97B941EE16C6000CB9BDA /* RedpacketView.m in Sources */,
 				9AC3A4901DF9B7B400F3405F /* LCCKSingleConversationDetailViewController.m in Sources */,
+				84F97BAD1EE5135200CB9BDA /* RedPacketInputViewPlugin.m in Sources */,
 				9A4730731CECAEC500AEB86F /* main.m in Sources */,
 				9A4730751CECAEC500AEB86F /* NSObject+LCCKHUD.m in Sources */,
 				9A53BE401D8BB19C00AAB118 /* AppDelegate.m in Sources */,
@@ -1011,6 +1016,7 @@
 				84F97B931EE16C6000CB9BDA /* RedpacketTakenMessageTipCell.m in Sources */,
 				9AC3A4D71DF9C25200F3405F /* NSFileManager+Paths.m in Sources */,
 				9AC3A4DE1DF9C8BD00F3405F /* LCCKUserGroupItemCell.m in Sources */,
+				84F97BAC1EE5135200CB9BDA /* RedPacketIncomeViewPlugin.m in Sources */,
 				84F97B961EE16C6000CB9BDA /* AppDelegate+Redpacket.m in Sources */,
 				9AB37B2E1DC86A60000782F2 /* REDPACKET.md in Sources */,
 				9A2669C91D6DA89100B66545 /* LCCKVCardMessage.m in Sources */,
