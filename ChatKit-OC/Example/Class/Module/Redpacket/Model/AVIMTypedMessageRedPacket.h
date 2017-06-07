@@ -12,6 +12,7 @@
 #else
 #import "LCChatKit.h"
 #endif
+#import "RPRedpacketModel.h"
 #import "AnalysisRedpacketModel.h"
 
 @interface AVIMTypedMessageRedPacket : AVIMTypedMessage<AVIMTypedMessageSubclassing>
@@ -19,6 +20,8 @@
 /**
  *  红包相关数据模型
  */
-@property (nonatomic,strong) AnalysisRedpacketModel * rpModel;
+@property (nonatomic,strong) RPRedpacketModel * rpModel;
+
+@property (nonatomic,strong) AnalysisRedpacketModel *annlysisModel;
 
 @end

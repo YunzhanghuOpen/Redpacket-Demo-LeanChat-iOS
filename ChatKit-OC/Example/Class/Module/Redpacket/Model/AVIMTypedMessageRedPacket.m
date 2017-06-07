@@ -31,22 +31,22 @@
     return self;
 }
 
-- (void)setRpModel:(AnalysisRedpacketModel *)rpModel {
+- (void)setRpModel:(RPRedpacketModel *)rpModel {
     _rpModel = rpModel;
     [self lcck_setObject:[NSString stringWithFormat:@"%@：[红包]%@",rpModel.sender.userName,rpModel.greeting] forKey:LCCKCustomMessageTypeTitleKey];
 }
 
-- (AnalysisRedpacketModel *)rpModel {
-    if (!_rpModel) {
+- (AnalysisRedpacketModel *)annlysisModel {
+    if (!_annlysisModel) {
         NSError * error;
         NSDictionary * attributes = [NSJSONSerialization JSONObjectWithData:[self.payload dataUsingEncoding:NSUTF8StringEncoding] options:NSJSONReadingMutableLeaves error:&error];
         if (!error) {
-            _rpModel = [AnalysisRedpacketModel analysisRedpacketWithDict:attributes andIsSender:YES];
+            _annlysisModel = [AnalysisRedpacketModel analysisRedpacketWithDict:attributes andIsSender:YES];
         }else{
-            _rpModel = nil;
+            _annlysisModel = nil;
         }
     }
-    return _rpModel;
+    return _annlysisModel;
 }
 
 @end
