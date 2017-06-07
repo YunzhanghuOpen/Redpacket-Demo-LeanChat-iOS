@@ -7,6 +7,7 @@
 //
 
 #import "AVIMTypedMessageRedPacket.h"
+#import "RPRedpacketUnionHandle.h"
 
 @implementation AVIMTypedMessageRedPacket
 @synthesize rpModel = _rpModel;
@@ -33,6 +34,10 @@
 
 - (void)setRpModel:(RPRedpacketModel *)rpModel {
     _rpModel = rpModel;
+    NSDictionary *dict = [RPRedpacketUnionHandle dictWithRedpacketModel:rpModel isACKMessage:NO];
+    [dict enumerateKeysAndObjectsUsingBlock:^(id  _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
+        [self setObject:obj forKey:key];
+    }];
     [self lcck_setObject:[NSString stringWithFormat:@"%@：[红包]%@",rpModel.sender.userName,rpModel.greeting] forKey:LCCKCustomMessageTypeTitleKey];
 }
 
@@ -47,6 +52,18 @@
         }
     }
     return _annlysisModel;
+}
+
+- (RPRedpacketModel *)rpModel
+{
+    NSError * error;
+    NSDictionary * attributes = [NSJSONSerialization JSONObjectWithData:[self.payload dataUsingEncoding:NSUTF8StringEncoding] options:NSJSONReadingMutableLeaves error:&error];
+    if (!error) {
+        _rpModel = [RPRedpacketUnionHandle modelWithChannelRedpacketDic:attributes andSender:nil];
+    }else{
+        _rpModel = nil;
+    }
+    return _rpModel;
 }
 
 @end

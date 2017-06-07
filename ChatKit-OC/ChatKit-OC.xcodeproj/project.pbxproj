@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		84F97B911EE16C6000CB9BDA /* RedpacketCellResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 84F97B811EE16C6000CB9BDA /* RedpacketCellResource.bundle */; };
 		84F97B921EE16C6000CB9BDA /* RedPacketLuckView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F97B831EE16C6000CB9BDA /* RedPacketLuckView.m */; };
-		84F97B931EE16C6000CB9BDA /* RedpacketTakenMessageTipCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F97B851EE16C6000CB9BDA /* RedpacketTakenMessageTipCell.m */; };
 		84F97B941EE16C6000CB9BDA /* RedpacketView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F97B871EE16C6000CB9BDA /* RedpacketView.m */; };
 		84F97B951EE16C6000CB9BDA /* AnalysisRedpacketModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F97B8A1EE16C6000CB9BDA /* AnalysisRedpacketModel.m */; };
 		84F97B961EE16C6000CB9BDA /* AppDelegate+Redpacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F97B8C1EE16C6000CB9BDA /* AppDelegate+Redpacket.m */; };
@@ -17,6 +16,8 @@
 		84F97B981EE16C6000CB9BDA /* RPRedpacketUnionHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F97B901EE16C6000CB9BDA /* RPRedpacketUnionHandle.m */; };
 		84F97BAC1EE5135200CB9BDA /* RedPacketIncomeViewPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F97BA91EE5135200CB9BDA /* RedPacketIncomeViewPlugin.m */; };
 		84F97BAD1EE5135200CB9BDA /* RedPacketInputViewPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F97BAB1EE5135200CB9BDA /* RedPacketInputViewPlugin.m */; };
+		84F980591EE7A75B00CB9BDA /* RedpacketMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F980561EE7A75B00CB9BDA /* RedpacketMessageCell.m */; };
+		84F9805A1EE7A75B00CB9BDA /* RedpacketTakenMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F980581EE7A75B00CB9BDA /* RedpacketTakenMessageCell.m */; };
 		9A2669C81D6DA89100B66545 /* LCCKInputViewPluginConversationBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2669B81D6DA89100B66545 /* LCCKInputViewPluginConversationBackground.m */; };
 		9A2669C91D6DA89100B66545 /* LCCKVCardMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2669BD1D6DA89100B66545 /* LCCKVCardMessage.m */; };
 		9A2669CA1D6DA89100B66545 /* calling_card_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A2669BF1D6DA89100B66545 /* calling_card_bg@2x.png */; };
@@ -100,8 +101,6 @@
 		84F97B811EE16C6000CB9BDA /* RedpacketCellResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RedpacketCellResource.bundle; sourceTree = "<group>"; };
 		84F97B821EE16C6000CB9BDA /* RedPacketLuckView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedPacketLuckView.h; sourceTree = "<group>"; };
 		84F97B831EE16C6000CB9BDA /* RedPacketLuckView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedPacketLuckView.m; sourceTree = "<group>"; };
-		84F97B841EE16C6000CB9BDA /* RedpacketTakenMessageTipCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedpacketTakenMessageTipCell.h; sourceTree = "<group>"; };
-		84F97B851EE16C6000CB9BDA /* RedpacketTakenMessageTipCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedpacketTakenMessageTipCell.m; sourceTree = "<group>"; };
 		84F97B861EE16C6000CB9BDA /* RedpacketView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedpacketView.h; sourceTree = "<group>"; };
 		84F97B871EE16C6000CB9BDA /* RedpacketView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedpacketView.m; sourceTree = "<group>"; };
 		84F97B891EE16C6000CB9BDA /* AnalysisRedpacketModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalysisRedpacketModel.h; sourceTree = "<group>"; };
@@ -116,6 +115,10 @@
 		84F97BA91EE5135200CB9BDA /* RedPacketIncomeViewPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedPacketIncomeViewPlugin.m; sourceTree = "<group>"; };
 		84F97BAA1EE5135200CB9BDA /* RedPacketInputViewPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedPacketInputViewPlugin.h; sourceTree = "<group>"; };
 		84F97BAB1EE5135200CB9BDA /* RedPacketInputViewPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedPacketInputViewPlugin.m; sourceTree = "<group>"; };
+		84F980551EE7A75B00CB9BDA /* RedpacketMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedpacketMessageCell.h; sourceTree = "<group>"; };
+		84F980561EE7A75B00CB9BDA /* RedpacketMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedpacketMessageCell.m; sourceTree = "<group>"; };
+		84F980571EE7A75B00CB9BDA /* RedpacketTakenMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedpacketTakenMessageCell.h; sourceTree = "<group>"; };
+		84F980581EE7A75B00CB9BDA /* RedpacketTakenMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedpacketTakenMessageCell.m; sourceTree = "<group>"; };
 		9A0B721B1CED662D004FDACC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		9A0B721D1CED6637004FDACC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		9A0B721F1CED6644004FDACC /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
@@ -277,8 +280,6 @@
 				84F97B811EE16C6000CB9BDA /* RedpacketCellResource.bundle */,
 				84F97B821EE16C6000CB9BDA /* RedPacketLuckView.h */,
 				84F97B831EE16C6000CB9BDA /* RedPacketLuckView.m */,
-				84F97B841EE16C6000CB9BDA /* RedpacketTakenMessageTipCell.h */,
-				84F97B851EE16C6000CB9BDA /* RedpacketTakenMessageTipCell.m */,
 				84F97B861EE16C6000CB9BDA /* RedpacketView.h */,
 				84F97B871EE16C6000CB9BDA /* RedpacketView.m */,
 			);
@@ -525,6 +526,10 @@
 		9A53BE071D8BB13E00AAB118 /* Redpacket */ = {
 			isa = PBXGroup;
 			children = (
+				84F980551EE7A75B00CB9BDA /* RedpacketMessageCell.h */,
+				84F980561EE7A75B00CB9BDA /* RedpacketMessageCell.m */,
+				84F980571EE7A75B00CB9BDA /* RedpacketTakenMessageCell.h */,
+				84F980581EE7A75B00CB9BDA /* RedpacketTakenMessageCell.m */,
 				84F97BA81EE5135200CB9BDA /* RedPacketIncomeViewPlugin.h */,
 				84F97BA91EE5135200CB9BDA /* RedPacketIncomeViewPlugin.m */,
 				84F97BAA1EE5135200CB9BDA /* RedPacketInputViewPlugin.h */,
@@ -979,6 +984,7 @@
 				9A2669CC1D6DA89100B66545 /* LCCKVCardMessageCell.m in Sources */,
 				9A2669CD1D6DA89100B66545 /* LCCKVCardView.m in Sources */,
 				9A47306A1CECAEC500AEB86F /* DEMODataSource.m in Sources */,
+				84F9805A1EE7A75B00CB9BDA /* RedpacketTakenMessageCell.m in Sources */,
 				9A562A3B1E03D52F00BB23DD /* LCCKSettingItem.m in Sources */,
 				84F97B951EE16C6000CB9BDA /* AnalysisRedpacketModel.m in Sources */,
 				9A562A391E03D52F00BB23DD /* LCCKSettingSwitchCell.m in Sources */,
@@ -995,6 +1001,7 @@
 				84F97B981EE16C6000CB9BDA /* RPRedpacketUnionHandle.m in Sources */,
 				9A53BE2B1D8BB13E00AAB118 /* AVIMTypedMessageRedPacket.m in Sources */,
 				84F97B921EE16C6000CB9BDA /* RedPacketLuckView.m in Sources */,
+				84F980591EE7A75B00CB9BDA /* RedpacketMessageCell.m in Sources */,
 				9A562A3A1E03D52F00BB23DD /* LCCKSettingGroup.m in Sources */,
 				9A4730691CECAEC500AEB86F /* DEMOCustomAutoCompleteObject.m in Sources */,
 				9AC3A4B91DF9BEE600F3405F /* UIColor+LCCKExtension.m in Sources */,
@@ -1013,7 +1020,6 @@
 				9A562A3D1E03D52F00BB23DD /* LCCKSettingHeaderTitleView.m in Sources */,
 				9A7E2DE91D5F1040003A7312 /* LCCKContactManager.m in Sources */,
 				9AC3A4D31DF9C16A00F3405F /* NSDate+Extension.m in Sources */,
-				84F97B931EE16C6000CB9BDA /* RedpacketTakenMessageTipCell.m in Sources */,
 				9AC3A4D71DF9C25200F3405F /* NSFileManager+Paths.m in Sources */,
 				9AC3A4DE1DF9C8BD00F3405F /* LCCKUserGroupItemCell.m in Sources */,
 				84F97BAC1EE5135200CB9BDA /* RedPacketIncomeViewPlugin.m in Sources */,

@@ -117,6 +117,7 @@
 - (void)sendRedpacketMessage:(RPRedpacketModel *)redpacket {
     AVIMTypedMessageRedPacket * message = [[AVIMTypedMessageRedPacket alloc]init];
     message.rpModel = redpacket;
+    
     [self.conversationViewController sendCustomMessage:message];
 }
 
