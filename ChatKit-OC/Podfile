@@ -18,7 +18,7 @@ pod 'TWMessageBarManager'
 pod 'MLPAutoCompleteTextField'
 #pod 'MLeaksFinder'
 pod 'FTPopOverMenu'
-pod 'RedPacketAliAuthUI', :path => 'Example/Class/Module/Redpacket/cocoapods-redpacket-ui-2.0.0'
+pod 'RedpacketAliAuthLib'
 pod "FXForms", "~> 1.2.14"
 
 end
