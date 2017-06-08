@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		366C07EC5C2DB7B053BE7EA8 /* libPods-ChatKit-alipayOpenUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 384061A89F41743E1E559D1C /* libPods-ChatKit-alipayOpenUI.a */; };
+		5690CA20DDF965FF28638A12 /* libPods-ChatKit-JDpay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F13BF53324DBE90259E43B0 /* libPods-ChatKit-JDpay.a */; };
 		84F97B911EE16C6000CB9BDA /* RedpacketCellResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 84F97B811EE16C6000CB9BDA /* RedpacketCellResource.bundle */; };
 		84F97B921EE16C6000CB9BDA /* RedPacketLuckView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F97B831EE16C6000CB9BDA /* RedPacketLuckView.m */; };
 		84F97B941EE16C6000CB9BDA /* RedpacketView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F97B871EE16C6000CB9BDA /* RedpacketView.m */; };
@@ -18,6 +20,77 @@
 		84F97BAD1EE5135200CB9BDA /* RedPacketInputViewPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F97BAB1EE5135200CB9BDA /* RedPacketInputViewPlugin.m */; };
 		84F980591EE7A75B00CB9BDA /* RedpacketMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F980561EE7A75B00CB9BDA /* RedpacketMessageCell.m */; };
 		84F9805A1EE7A75B00CB9BDA /* RedpacketTakenMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F980581EE7A75B00CB9BDA /* RedpacketTakenMessageCell.m */; };
+		84F987AE1EE93DFB00CB9BDA /* LCCKPlusButtonSubclass.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4730531CECAEC500AEB86F /* LCCKPlusButtonSubclass.m */; };
+		84F987AF1EE93DFB00CB9BDA /* LCCKLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A47303E1CECAEC500AEB86F /* LCCKLoginViewController.m */; };
+		84F987B01EE93DFB00CB9BDA /* LCCKUserGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC3A4DA1DF9C8BD00F3405F /* LCCKUserGroupCell.m */; };
+		84F987B11EE93DFB00CB9BDA /* LCChatKitExample+Setting.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A53BE3D1D8BB19C00AAB118 /* LCChatKitExample+Setting.m */; };
+		84F987B21EE93DFB00CB9BDA /* LCChatKitExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A53BE3B1D8BB19C00AAB118 /* LCChatKitExample.m */; };
+		84F987B31EE93DFB00CB9BDA /* LCCKProfileNameEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A55EB341E00FC5A0079EB65 /* LCCKProfileNameEditViewController.m */; };
+		84F987B41EE93DFB00CB9BDA /* LCCKSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A562A281E03D52F00BB23DD /* LCCKSettingCell.m */; };
+		84F987B51EE93DFB00CB9BDA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 9AB37B281DC86A60000782F2 /* README.md */; };
+		84F987B61EE93DFB00CB9BDA /* LCCKSettingButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A562A261E03D52F00BB23DD /* LCCKSettingButtonCell.m */; };
+		84F987B71EE93DFB00CB9BDA /* NSDate+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC3A4D21DF9C16A00F3405F /* NSDate+Utilities.m */; };
+		84F987B81EE93DFB00CB9BDA /* NSFileManager+LCCKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC3A4C91DF9C14500F3405F /* NSFileManager+LCCKExtension.m */; };
+		84F987B91EE93DFB00CB9BDA /* LCCKGroupConversationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC3A4921DF9B7D500F3405F /* LCCKGroupConversationDetailViewController.m */; };
+		84F987BA1EE93DFB00CB9BDA /* LCCKInputViewPluginConversationBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2669B81D6DA89100B66545 /* LCCKInputViewPluginConversationBackground.m */; };
+		84F987BB1EE93DFB00CB9BDA /* RPRedpacketConstValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F97B8E1EE16C6000CB9BDA /* RPRedpacketConstValues.m */; };
+		84F987BC1EE93DFB00CB9BDA /* LCCKVCardMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2669C41D6DA89100B66545 /* LCCKVCardMessageCell.m */; };
+		84F987BD1EE93DFB00CB9BDA /* LCCKVCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2669C61D6DA89100B66545 /* LCCKVCardView.m */; };
+		84F987BE1EE93DFB00CB9BDA /* DEMODataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4730441CECAEC500AEB86F /* DEMODataSource.m */; };
+		84F987BF1EE93DFB00CB9BDA /* RedpacketTakenMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F980581EE7A75B00CB9BDA /* RedpacketTakenMessageCell.m */; };
+		84F987C01EE93DFB00CB9BDA /* LCCKSettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A562A301E03D52F00BB23DD /* LCCKSettingItem.m */; };
+		84F987C11EE93DFB00CB9BDA /* AnalysisRedpacketModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F97B8A1EE16C6000CB9BDA /* AnalysisRedpacketModel.m */; };
+		84F987C21EE93DFB00CB9BDA /* LCCKSettingSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A562A2A1E03D52F00BB23DD /* LCCKSettingSwitchCell.m */; };
+		84F987C31EE93DFB00CB9BDA /* LCCKInputViewPluginVCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2669C21D6DA89100B66545 /* LCCKInputViewPluginVCard.m */; };
+		84F987C41EE93DFB00CB9BDA /* LCCKMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A47304B1CECAEC500AEB86F /* LCCKMapViewController.m */; };
+		84F987C51EE93DFB00CB9BDA /* ChatKit 自定义样式.md in Sources */ = {isa = PBXBuildFile; fileRef = 9AB37B251DC86A60000782F2 /* ChatKit 自定义样式.md */; };
+		84F987C61EE93DFB00CB9BDA /* ChatKit 自定义业务.md in Sources */ = {isa = PBXBuildFile; fileRef = 9AB37B261DC86A60000782F2 /* ChatKit 自定义业务.md */; };
+		84F987C71EE93DFB00CB9BDA /* LCCKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A47302E1CECAEC500AEB86F /* LCCKUser.m */; };
+		84F987C81EE93DFB00CB9BDA /* LCCKUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4730501CECAEC500AEB86F /* LCCKUtil.m */; };
+		84F987C91EE93DFB00CB9BDA /* RedpacketConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A53BE131D8BB13E00AAB118 /* RedpacketConfig.m */; };
+		84F987CA1EE93DFB00CB9BDA /* LCCKSettingFooterTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A562A331E03D52F00BB23DD /* LCCKSettingFooterTitleView.m */; };
+		84F987CB1EE93DFB00CB9BDA /* LCCKChatDetailHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC3A4E11DF9CE0300F3405F /* LCCKChatDetailHelper.m */; };
+		84F987CC1EE93DFB00CB9BDA /* AVIMTypedMessageRedPacketTaken.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A53BE0C1D8BB13E00AAB118 /* AVIMTypedMessageRedPacketTaken.m */; };
+		84F987CD1EE93DFB00CB9BDA /* RPRedpacketUnionHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F97B901EE16C6000CB9BDA /* RPRedpacketUnionHandle.m */; };
+		84F987CE1EE93DFB00CB9BDA /* AVIMTypedMessageRedPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A53BE0A1D8BB13E00AAB118 /* AVIMTypedMessageRedPacket.m */; };
+		84F987CF1EE93DFB00CB9BDA /* RedPacketLuckView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F97B831EE16C6000CB9BDA /* RedPacketLuckView.m */; };
+		84F987D01EE93DFB00CB9BDA /* RedpacketMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F980561EE7A75B00CB9BDA /* RedpacketMessageCell.m */; };
+		84F987D11EE93DFB00CB9BDA /* LCCKSettingGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A562A2E1E03D52F00BB23DD /* LCCKSettingGroup.m */; };
+		84F987D21EE93DFB00CB9BDA /* DEMOCustomAutoCompleteObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4730421CECAEC500AEB86F /* DEMOCustomAutoCompleteObject.m */; };
+		84F987D31EE93DFB00CB9BDA /* UIColor+LCCKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC3A4B51DF9BEE600F3405F /* UIColor+LCCKExtension.m */; };
+		84F987D41EE93DFB00CB9BDA /* RedpacketView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F97B871EE16C6000CB9BDA /* RedpacketView.m */; };
+		84F987D51EE93DFB00CB9BDA /* LCCKSingleConversationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC3A48F1DF9B7B400F3405F /* LCCKSingleConversationDetailViewController.m */; };
+		84F987D61EE93DFB00CB9BDA /* RedPacketInputViewPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F97BAB1EE5135200CB9BDA /* RedPacketInputViewPlugin.m */; };
+		84F987D71EE93DFB00CB9BDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4730591CECAEC500AEB86F /* main.m */; };
+		84F987D81EE93DFB00CB9BDA /* NSObject+LCCKHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A47305E1CECAEC500AEB86F /* NSObject+LCCKHUD.m */; };
+		84F987D91EE93DFB00CB9BDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A53BE391D8BB19C00AAB118 /* AppDelegate.m */; };
+		84F987DA1EE93DFB00CB9BDA /* UIFont+LCCKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC3A4B71DF9BEE600F3405F /* UIFont+LCCKExtension.m */; };
+		84F987DB1EE93DFB00CB9BDA /* LCCKTabBarControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A53BE3F1D8BB19C00AAB118 /* LCCKTabBarControllerConfig.m */; };
+		84F987DC1EE93DFB00CB9BDA /* LCCKSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A562A231E03D52F00BB23DD /* LCCKSettingViewController.m */; };
+		84F987DD1EE93DFB00CB9BDA /* NSDate+LCCKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC3A4C71DF9C14500F3405F /* NSDate+LCCKExtension.m */; };
+		84F987DE1EE93DFB00CB9BDA /* LCCKLoginDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4730461CECAEC500AEB86F /* LCCKLoginDataSource.m */; };
+		84F987DF1EE93DFB00CB9BDA /* LCCKUIUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC3A4B31DF9BEE600F3405F /* LCCKUIUtility.m */; };
+		84F987E01EE93DFB00CB9BDA /* LCCKSettingHeaderTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A562A351E03D52F00BB23DD /* LCCKSettingHeaderTitleView.m */; };
+		84F987E11EE93DFB00CB9BDA /* LCCKContactManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7E2DE81D5F1040003A7312 /* LCCKContactManager.m */; };
+		84F987E21EE93DFB00CB9BDA /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC3A4D01DF9C16A00F3405F /* NSDate+Extension.m */; };
+		84F987E31EE93DFB00CB9BDA /* NSFileManager+Paths.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC3A4D61DF9C25200F3405F /* NSFileManager+Paths.m */; };
+		84F987E41EE93DFB00CB9BDA /* LCCKUserGroupItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC3A4DC1DF9C8BD00F3405F /* LCCKUserGroupItemCell.m */; };
+		84F987E51EE93DFB00CB9BDA /* RedPacketIncomeViewPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F97BA91EE5135200CB9BDA /* RedPacketIncomeViewPlugin.m */; };
+		84F987E61EE93DFB00CB9BDA /* AppDelegate+Redpacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F97B8C1EE16C6000CB9BDA /* AppDelegate+Redpacket.m */; };
+		84F987E71EE93DFB00CB9BDA /* REDPACKET.md in Sources */ = {isa = PBXBuildFile; fileRef = 9AB37B291DC86A60000782F2 /* REDPACKET.md */; };
+		84F987E81EE93DFB00CB9BDA /* LCCKVCardMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2669BD1D6DA89100B66545 /* LCCKVCardMessage.m */; };
+		84F987EA1EE93DFB00CB9BDA /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7586C4E1D630681000C18B4 /* CoreMotion.framework */; };
+		84F987EB1EE93DFB00CB9BDA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0B72211CED664D004FDACC /* CoreLocation.framework */; };
+		84F987EC1EE93DFB00CB9BDA /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0B721F1CED6644004FDACC /* CoreTelephony.framework */; };
+		84F987ED1EE93DFB00CB9BDA /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0B721D1CED6637004FDACC /* MobileCoreServices.framework */; };
+		84F987EE1EE93DFB00CB9BDA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0B721B1CED662D004FDACC /* SystemConfiguration.framework */; };
+		84F987F11EE93DFB00CB9BDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A4730561CECAEC500AEB86F /* LaunchScreen.storyboard */; };
+		84F987F21EE93DFB00CB9BDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A4730551CECAEC500AEB86F /* Assets.xcassets */; };
+		84F987F31EE93DFB00CB9BDA /* ChatKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 9AB37B271DC86A60000782F2 /* ChatKit.podspec */; };
+		84F987F41EE93DFB00CB9BDA /* LCCKVCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A2669C71D6DA89100B66545 /* LCCKVCardView.xib */; };
+		84F987F51EE93DFB00CB9BDA /* calling_card_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A2669BF1D6DA89100B66545 /* calling_card_bg@2x.png */; };
+		84F987F61EE93DFB00CB9BDA /* LCCKLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A47303F1CECAEC500AEB86F /* LCCKLoginViewController.xib */; };
+		84F987F71EE93DFB00CB9BDA /* RedpacketCellResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 84F97B811EE16C6000CB9BDA /* RedpacketCellResource.bundle */; };
 		9A2669C81D6DA89100B66545 /* LCCKInputViewPluginConversationBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2669B81D6DA89100B66545 /* LCCKInputViewPluginConversationBackground.m */; };
 		9A2669C91D6DA89100B66545 /* LCCKVCardMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2669BD1D6DA89100B66545 /* LCCKVCardMessage.m */; };
 		9A2669CA1D6DA89100B66545 /* calling_card_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A2669BF1D6DA89100B66545 /* calling_card_bg@2x.png */; };
@@ -77,11 +150,20 @@
 		9AD665CD1D22778B0040A4E3 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0B721D1CED6637004FDACC /* MobileCoreServices.framework */; };
 		9AD665CE1D2277920040A4E3 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0B721F1CED6644004FDACC /* CoreTelephony.framework */; };
 		9AD665CF1D22779A0040A4E3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0B72211CED664D004FDACC /* CoreLocation.framework */; };
-		D6B21DCFEA88FFA0694238EC /* libPods-ChatKit-OC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D62193C0ECACB72DC928AD70 /* libPods-ChatKit-OC.a */; };
 		E7586C4F1D630681000C18B4 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7586C4E1D630681000C18B4 /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		84F987F81EE93DFB00CB9BDA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9A1AD17B1CEDE640000FF26E /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -95,9 +177,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		384061A89F41743E1E559D1C /* libPods-ChatKit-alipayOpenUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChatKit-alipayOpenUI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7404AB0E0935F68A63803D6D /* Pods-ChatKit-OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatKit-OC.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChatKit-OC/Pods-ChatKit-OC.release.xcconfig"; sourceTree = "<group>"; };
 		7AA80542B93A21303B03F801 /* libPods-ChatKit-OC-JDpay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChatKit-OC-JDpay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		840433191E9DFEC400ACAFAB /* ChatKit-OC copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ChatKit-OC copy-Info.plist"; path = "/Users/admin/Documents/developer/leanchat-ios-master-2/ChatKit-OC/ChatKit-OC/ChatKit-OC copy-Info.plist"; sourceTree = "<absolute>"; };
+		7F13BF53324DBE90259E43B0 /* libPods-ChatKit-JDpay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChatKit-JDpay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F97B811EE16C6000CB9BDA /* RedpacketCellResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RedpacketCellResource.bundle; sourceTree = "<group>"; };
 		84F97B821EE16C6000CB9BDA /* RedPacketLuckView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedPacketLuckView.h; sourceTree = "<group>"; };
 		84F97B831EE16C6000CB9BDA /* RedPacketLuckView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedPacketLuckView.m; sourceTree = "<group>"; };
@@ -119,6 +202,8 @@
 		84F980561EE7A75B00CB9BDA /* RedpacketMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedpacketMessageCell.m; sourceTree = "<group>"; };
 		84F980571EE7A75B00CB9BDA /* RedpacketTakenMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedpacketTakenMessageCell.h; sourceTree = "<group>"; };
 		84F980581EE7A75B00CB9BDA /* RedpacketTakenMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedpacketTakenMessageCell.m; sourceTree = "<group>"; };
+		84F988001EE93DFB00CB9BDA /* ChatKit-JDpay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChatKit-JDpay.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F988011EE93DFC00CB9BDA /* ChatKit-alipayOpenUI copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ChatKit-alipayOpenUI copy-Info.plist"; path = "/Users/admin/Documents/developer/YunzhanghuOfficial/leanchat-ios-master-2/ChatKit-OC/ChatKit-OC/ChatKit-alipayOpenUI copy-Info.plist"; sourceTree = "<absolute>"; };
 		9A0B721B1CED662D004FDACC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		9A0B721D1CED6637004FDACC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		9A0B721F1CED6644004FDACC /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
@@ -193,7 +278,7 @@
 		9A562A331E03D52F00BB23DD /* LCCKSettingFooterTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCKSettingFooterTitleView.m; sourceTree = "<group>"; };
 		9A562A341E03D52F00BB23DD /* LCCKSettingHeaderTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKSettingHeaderTitleView.h; sourceTree = "<group>"; };
 		9A562A351E03D52F00BB23DD /* LCCKSettingHeaderTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCKSettingHeaderTitleView.m; sourceTree = "<group>"; };
-		9A754D4B1CECAC3E000967F1 /* ChatKit-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChatKit-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A754D4B1CECAC3E000967F1 /* ChatKit-alipayOpenUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChatKit-alipayOpenUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A7E2DE61D5F0B59003A7312 /* LCCKExampleConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKExampleConstants.h; sourceTree = "<group>"; };
 		9A7E2DE71D5F1040003A7312 /* LCCKContactManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKContactManager.h; sourceTree = "<group>"; };
 		9A7E2DE81D5F1040003A7312 /* LCCKContactManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCKContactManager.m; sourceTree = "<group>"; };
@@ -229,12 +314,29 @@
 		9AC3A4DC1DF9C8BD00F3405F /* LCCKUserGroupItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCKUserGroupItemCell.m; sourceTree = "<group>"; };
 		9AC3A4E01DF9CE0300F3405F /* LCCKChatDetailHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKChatDetailHelper.h; sourceTree = "<group>"; };
 		9AC3A4E11DF9CE0300F3405F /* LCCKChatDetailHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCKChatDetailHelper.m; sourceTree = "<group>"; };
+		AB48214CC1C97B9515C78B1B /* Pods-ChatKit-alipayOpenUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatKit-alipayOpenUI.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChatKit-alipayOpenUI/Pods-ChatKit-alipayOpenUI.release.xcconfig"; sourceTree = "<group>"; };
+		D084E96F71AFBE4D72189443 /* Pods-ChatKit-JDpay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatKit-JDpay.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChatKit-JDpay/Pods-ChatKit-JDpay.release.xcconfig"; sourceTree = "<group>"; };
+		D31B16FF4300B36F2B23F1C2 /* Pods-ChatKit-alipayOpenUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatKit-alipayOpenUI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChatKit-alipayOpenUI/Pods-ChatKit-alipayOpenUI.debug.xcconfig"; sourceTree = "<group>"; };
 		D62193C0ECACB72DC928AD70 /* libPods-ChatKit-OC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChatKit-OC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF961ABF87F4B92B47F51CD4 /* Pods-ChatKit-JDpay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatKit-JDpay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChatKit-JDpay/Pods-ChatKit-JDpay.debug.xcconfig"; sourceTree = "<group>"; };
 		E55D34EC8F162DB5443587B0 /* Pods-ChatKit-OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatKit-OC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChatKit-OC/Pods-ChatKit-OC.debug.xcconfig"; sourceTree = "<group>"; };
 		E7586C4E1D630681000C18B4 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		84F987E91EE93DFB00CB9BDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F987EA1EE93DFB00CB9BDA /* CoreMotion.framework in Frameworks */,
+				84F987EB1EE93DFB00CB9BDA /* CoreLocation.framework in Frameworks */,
+				84F987EC1EE93DFB00CB9BDA /* CoreTelephony.framework in Frameworks */,
+				84F987ED1EE93DFB00CB9BDA /* MobileCoreServices.framework in Frameworks */,
+				84F987EE1EE93DFB00CB9BDA /* SystemConfiguration.framework in Frameworks */,
+				5690CA20DDF965FF28638A12 /* libPods-ChatKit-JDpay.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9A754D481CECAC3E000967F1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -244,7 +346,7 @@
 				9AD665CE1D2277920040A4E3 /* CoreTelephony.framework in Frameworks */,
 				9AD665CD1D22778B0040A4E3 /* MobileCoreServices.framework in Frameworks */,
 				9AD665CC1D2277830040A4E3 /* SystemConfiguration.framework in Frameworks */,
-				D6B21DCFEA88FFA0694238EC /* libPods-ChatKit-OC.a in Frameworks */,
+				366C07EC5C2DB7B053BE7EA8 /* libPods-ChatKit-alipayOpenUI.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +363,8 @@
 				9A0B721B1CED662D004FDACC /* SystemConfiguration.framework */,
 				D62193C0ECACB72DC928AD70 /* libPods-ChatKit-OC.a */,
 				7AA80542B93A21303B03F801 /* libPods-ChatKit-OC-JDpay.a */,
+				7F13BF53324DBE90259E43B0 /* libPods-ChatKit-JDpay.a */,
+				384061A89F41743E1E559D1C /* libPods-ChatKit-alipayOpenUI.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -606,14 +710,15 @@
 				578A4ED63A7AFF3EA27EF73A /* Frameworks */,
 				E700C6F41D7192E800056E3C /* Recovered References */,
 				DA96A2E70997437673F17F60 /* Pods */,
-				840433191E9DFEC400ACAFAB /* ChatKit-OC copy-Info.plist */,
+				84F988011EE93DFC00CB9BDA /* ChatKit-alipayOpenUI copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
 		9A754D4C1CECAC3E000967F1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9A754D4B1CECAC3E000967F1 /* ChatKit-OC.app */,
+				9A754D4B1CECAC3E000967F1 /* ChatKit-alipayOpenUI.app */,
+				84F988001EE93DFB00CB9BDA /* ChatKit-JDpay.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -742,6 +847,10 @@
 			children = (
 				E55D34EC8F162DB5443587B0 /* Pods-ChatKit-OC.debug.xcconfig */,
 				7404AB0E0935F68A63803D6D /* Pods-ChatKit-OC.release.xcconfig */,
+				DF961ABF87F4B92B47F51CD4 /* Pods-ChatKit-JDpay.debug.xcconfig */,
+				D084E96F71AFBE4D72189443 /* Pods-ChatKit-JDpay.release.xcconfig */,
+				D31B16FF4300B36F2B23F1C2 /* Pods-ChatKit-alipayOpenUI.debug.xcconfig */,
+				AB48214CC1C97B9515C78B1B /* Pods-ChatKit-alipayOpenUI.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -756,9 +865,35 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9A754D4A1CECAC3E000967F1 /* ChatKit-OC */ = {
+		84F987A81EE93DFB00CB9BDA /* ChatKit-JDpay */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A754D621CECAC3E000967F1 /* Build configuration list for PBXNativeTarget "ChatKit-OC" */;
+			buildConfigurationList = 84F987FD1EE93DFB00CB9BDA /* Build configuration list for PBXNativeTarget "ChatKit-JDpay" */;
+			buildPhases = (
+				84F987A91EE93DFB00CB9BDA /* [CP] Check Pods Manifest.lock */,
+				84F987AA1EE93DFB00CB9BDA /* [CP] Check Pods Manifest.lock */,
+				84F987AB1EE93DFB00CB9BDA /* [CP] Check Pods Manifest.lock */,
+				84F987AC1EE93DFB00CB9BDA /* [CP] Check Pods Manifest.lock */,
+				84F987AD1EE93DFB00CB9BDA /* Sources */,
+				84F987E91EE93DFB00CB9BDA /* Frameworks */,
+				84F987F01EE93DFB00CB9BDA /* Resources */,
+				84F987F81EE93DFB00CB9BDA /* Embed Frameworks */,
+				84F987F91EE93DFB00CB9BDA /* [CP] Embed Pods Frameworks */,
+				84F987FA1EE93DFB00CB9BDA /* [CP] Copy Pods Resources */,
+				84F987FB1EE93DFB00CB9BDA /* 📦 Embed Pods Frameworks */,
+				84F987FC1EE93DFB00CB9BDA /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ChatKit-JDpay";
+			productName = "ChatKit-OC";
+			productReference = 84F988001EE93DFB00CB9BDA /* ChatKit-JDpay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A754D4A1CECAC3E000967F1 /* ChatKit-alipayOpenUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A754D621CECAC3E000967F1 /* Build configuration list for PBXNativeTarget "ChatKit-alipayOpenUI" */;
 			buildPhases = (
 				3A326A90827A83ABFB06EDAA /* [CP] Check Pods Manifest.lock */,
 				93F4B19236F002733267544F /* [CP] Check Pods Manifest.lock */,
@@ -777,9 +912,9 @@
 			);
 			dependencies = (
 			);
-			name = "ChatKit-OC";
+			name = "ChatKit-alipayOpenUI";
 			productName = "ChatKit-OC";
-			productReference = 9A754D4B1CECAC3E000967F1 /* ChatKit-OC.app */;
+			productReference = 9A754D4B1CECAC3E000967F1 /* ChatKit-alipayOpenUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -791,6 +926,9 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = ElonChan;
 				TargetAttributes = {
+					84F987A81EE93DFB00CB9BDA = {
+						DevelopmentTeam = PUEB48NTQQ;
+					};
 					9A754D4A1CECAC3E000967F1 = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = PUEB48NTQQ;
@@ -817,12 +955,27 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9A754D4A1CECAC3E000967F1 /* ChatKit-OC */,
+				9A754D4A1CECAC3E000967F1 /* ChatKit-alipayOpenUI */,
+				84F987A81EE93DFB00CB9BDA /* ChatKit-JDpay */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		84F987F01EE93DFB00CB9BDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F987F11EE93DFB00CB9BDA /* LaunchScreen.storyboard in Resources */,
+				84F987F21EE93DFB00CB9BDA /* Assets.xcassets in Resources */,
+				84F987F31EE93DFB00CB9BDA /* ChatKit.podspec in Resources */,
+				84F987F41EE93DFB00CB9BDA /* LCCKVCardView.xib in Resources */,
+				84F987F51EE93DFB00CB9BDA /* calling_card_bg@2x.png in Resources */,
+				84F987F61EE93DFB00CB9BDA /* LCCKLoginViewController.xib in Resources */,
+				84F987F71EE93DFB00CB9BDA /* RedpacketCellResource.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9A754D491CECAC3E000967F1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -882,7 +1035,127 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChatKit-OC/Pods-ChatKit-OC-resources.sh\"\n";
+			shellScript = "Type a script or drag a script file from your workspace to insert its path";
+			showEnvVarsInLog = 0;
+		};
+		84F987A91EE93DFB00CB9BDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		84F987AA1EE93DFB00CB9BDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		84F987AB1EE93DFB00CB9BDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		84F987AC1EE93DFB00CB9BDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		84F987F91EE93DFB00CB9BDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChatKit-JDpay/Pods-ChatKit-JDpay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84F987FA1EE93DFB00CB9BDA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChatKit-JDpay/Pods-ChatKit-JDpay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84F987FB1EE93DFB00CB9BDA /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+			showEnvVarsInLog = 0;
+		};
+		84F987FC1EE93DFB00CB9BDA /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
 			showEnvVarsInLog = 0;
 		};
 		93F4B19236F002733267544F /* [CP] Check Pods Manifest.lock */ = {
@@ -912,7 +1185,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChatKit-OC/Pods-ChatKit-OC-frameworks.sh\"\n";
+			shellScript = "";
 			showEnvVarsInLog = 0;
 		};
 		B2766B2FC2AFFF07E341B315 /* [CP] Copy Pods Resources */ = {
@@ -927,7 +1200,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChatKit-OC/Pods-ChatKit-OC-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChatKit-alipayOpenUI/Pods-ChatKit-alipayOpenUI-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B3D3A07CFC7415F038843CA3 /* [CP] Embed Pods Frameworks */ = {
@@ -942,7 +1215,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChatKit-OC/Pods-ChatKit-OC-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChatKit-alipayOpenUI/Pods-ChatKit-alipayOpenUI-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CDA6F8A69927C83B20C33EBD /* [CP] Check Pods Manifest.lock */ = {
@@ -963,6 +1236,72 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		84F987AD1EE93DFB00CB9BDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F987AE1EE93DFB00CB9BDA /* LCCKPlusButtonSubclass.m in Sources */,
+				84F987AF1EE93DFB00CB9BDA /* LCCKLoginViewController.m in Sources */,
+				84F987B01EE93DFB00CB9BDA /* LCCKUserGroupCell.m in Sources */,
+				84F987B11EE93DFB00CB9BDA /* LCChatKitExample+Setting.m in Sources */,
+				84F987B21EE93DFB00CB9BDA /* LCChatKitExample.m in Sources */,
+				84F987B31EE93DFB00CB9BDA /* LCCKProfileNameEditViewController.m in Sources */,
+				84F987B41EE93DFB00CB9BDA /* LCCKSettingCell.m in Sources */,
+				84F987B51EE93DFB00CB9BDA /* README.md in Sources */,
+				84F987B61EE93DFB00CB9BDA /* LCCKSettingButtonCell.m in Sources */,
+				84F987B71EE93DFB00CB9BDA /* NSDate+Utilities.m in Sources */,
+				84F987B81EE93DFB00CB9BDA /* NSFileManager+LCCKExtension.m in Sources */,
+				84F987B91EE93DFB00CB9BDA /* LCCKGroupConversationDetailViewController.m in Sources */,
+				84F987BA1EE93DFB00CB9BDA /* LCCKInputViewPluginConversationBackground.m in Sources */,
+				84F987BB1EE93DFB00CB9BDA /* RPRedpacketConstValues.m in Sources */,
+				84F987BC1EE93DFB00CB9BDA /* LCCKVCardMessageCell.m in Sources */,
+				84F987BD1EE93DFB00CB9BDA /* LCCKVCardView.m in Sources */,
+				84F987BE1EE93DFB00CB9BDA /* DEMODataSource.m in Sources */,
+				84F987BF1EE93DFB00CB9BDA /* RedpacketTakenMessageCell.m in Sources */,
+				84F987C01EE93DFB00CB9BDA /* LCCKSettingItem.m in Sources */,
+				84F987C11EE93DFB00CB9BDA /* AnalysisRedpacketModel.m in Sources */,
+				84F987C21EE93DFB00CB9BDA /* LCCKSettingSwitchCell.m in Sources */,
+				84F987C31EE93DFB00CB9BDA /* LCCKInputViewPluginVCard.m in Sources */,
+				84F987C41EE93DFB00CB9BDA /* LCCKMapViewController.m in Sources */,
+				84F987C51EE93DFB00CB9BDA /* ChatKit 自定义样式.md in Sources */,
+				84F987C61EE93DFB00CB9BDA /* ChatKit 自定义业务.md in Sources */,
+				84F987C71EE93DFB00CB9BDA /* LCCKUser.m in Sources */,
+				84F987C81EE93DFB00CB9BDA /* LCCKUtil.m in Sources */,
+				84F987C91EE93DFB00CB9BDA /* RedpacketConfig.m in Sources */,
+				84F987CA1EE93DFB00CB9BDA /* LCCKSettingFooterTitleView.m in Sources */,
+				84F987CB1EE93DFB00CB9BDA /* LCCKChatDetailHelper.m in Sources */,
+				84F987CC1EE93DFB00CB9BDA /* AVIMTypedMessageRedPacketTaken.m in Sources */,
+				84F987CD1EE93DFB00CB9BDA /* RPRedpacketUnionHandle.m in Sources */,
+				84F987CE1EE93DFB00CB9BDA /* AVIMTypedMessageRedPacket.m in Sources */,
+				84F987CF1EE93DFB00CB9BDA /* RedPacketLuckView.m in Sources */,
+				84F987D01EE93DFB00CB9BDA /* RedpacketMessageCell.m in Sources */,
+				84F987D11EE93DFB00CB9BDA /* LCCKSettingGroup.m in Sources */,
+				84F987D21EE93DFB00CB9BDA /* DEMOCustomAutoCompleteObject.m in Sources */,
+				84F987D31EE93DFB00CB9BDA /* UIColor+LCCKExtension.m in Sources */,
+				84F987D41EE93DFB00CB9BDA /* RedpacketView.m in Sources */,
+				84F987D51EE93DFB00CB9BDA /* LCCKSingleConversationDetailViewController.m in Sources */,
+				84F987D61EE93DFB00CB9BDA /* RedPacketInputViewPlugin.m in Sources */,
+				84F987D71EE93DFB00CB9BDA /* main.m in Sources */,
+				84F987D81EE93DFB00CB9BDA /* NSObject+LCCKHUD.m in Sources */,
+				84F987D91EE93DFB00CB9BDA /* AppDelegate.m in Sources */,
+				84F987DA1EE93DFB00CB9BDA /* UIFont+LCCKExtension.m in Sources */,
+				84F987DB1EE93DFB00CB9BDA /* LCCKTabBarControllerConfig.m in Sources */,
+				84F987DC1EE93DFB00CB9BDA /* LCCKSettingViewController.m in Sources */,
+				84F987DD1EE93DFB00CB9BDA /* NSDate+LCCKExtension.m in Sources */,
+				84F987DE1EE93DFB00CB9BDA /* LCCKLoginDataSource.m in Sources */,
+				84F987DF1EE93DFB00CB9BDA /* LCCKUIUtility.m in Sources */,
+				84F987E01EE93DFB00CB9BDA /* LCCKSettingHeaderTitleView.m in Sources */,
+				84F987E11EE93DFB00CB9BDA /* LCCKContactManager.m in Sources */,
+				84F987E21EE93DFB00CB9BDA /* NSDate+Extension.m in Sources */,
+				84F987E31EE93DFB00CB9BDA /* NSFileManager+Paths.m in Sources */,
+				84F987E41EE93DFB00CB9BDA /* LCCKUserGroupItemCell.m in Sources */,
+				84F987E51EE93DFB00CB9BDA /* RedPacketIncomeViewPlugin.m in Sources */,
+				84F987E61EE93DFB00CB9BDA /* AppDelegate+Redpacket.m in Sources */,
+				84F987E71EE93DFB00CB9BDA /* REDPACKET.md in Sources */,
+				84F987E81EE93DFB00CB9BDA /* LCCKVCardMessage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9A754D471CECAC3E000967F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1044,6 +1383,100 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		84F987FE1EE93DFB00CB9BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF961ABF87F4B92B47F51CD4 /* Pods-ChatKit-JDpay.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "ChatKit-OC.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = PUEB48NTQQ;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "ChatKit-alipayOpenUI copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/AVOSCloud\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/AVOSCloudIM\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/CYLTabBarController\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/CYLTableViewRowAction\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/ChatKit\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/DACircularProgress\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/FDStackView\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/FMDB\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/MBProgressHUD\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/MJRefresh\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/MLLabel\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/MLPAutoCompleteTextField\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/MWPhotoBrowser\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Masonry\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SDWebImage\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/TWMessageBarManager\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/UITableView+FDTemplateLayoutCell\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/pop\"",
+					"\"$(SRCROOT)/../../RedpacketStaticLib\"/**",
+					"\"$(SRCROOT)/../../RedpacketStaticLib/AlipayLib\"/**",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chatkit.leancloud-yunzhanghu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		84F987FF1EE93DFB00CB9BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D084E96F71AFBE4D72189443 /* Pods-ChatKit-JDpay.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "ChatKit-OC.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = PUEB48NTQQ;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "ChatKit-alipayOpenUI copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/AVOSCloud\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/AVOSCloudIM\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/CYLTabBarController\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/CYLTableViewRowAction\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/ChatKit\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/DACircularProgress\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/FDStackView\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/FMDB\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/MBProgressHUD\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/MJRefresh\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/MLLabel\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/MLPAutoCompleteTextField\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/MWPhotoBrowser\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Masonry\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SDWebImage\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/TWMessageBarManager\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/UITableView+FDTemplateLayoutCell\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/pop\"",
+					"\"$(SRCROOT)/../../RedpacketStaticLib\"/**",
+					"\"$(SRCROOT)/../../RedpacketStaticLib/AlipayLib\"/**",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chatkit.leancloud-yunzhanghu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
 		9A754D601CECAC3E000967F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1140,7 +1573,7 @@
 		};
 		9A754D631CECAC3E000967F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E55D34EC8F162DB5443587B0 /* Pods-ChatKit-OC.debug.xcconfig */;
+			baseConfigurationReference = D31B16FF4300B36F2B23F1C2 /* Pods-ChatKit-alipayOpenUI.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1187,7 +1620,7 @@
 		};
 		9A754D641CECAC3E000967F1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7404AB0E0935F68A63803D6D /* Pods-ChatKit-OC.release.xcconfig */;
+			baseConfigurationReference = AB48214CC1C97B9515C78B1B /* Pods-ChatKit-alipayOpenUI.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1235,6 +1668,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		84F987FD1EE93DFB00CB9BDA /* Build configuration list for PBXNativeTarget "ChatKit-JDpay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F987FE1EE93DFB00CB9BDA /* Debug */,
+				84F987FF1EE93DFB00CB9BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9A754D461CECAC3E000967F1 /* Build configuration list for PBXProject "ChatKit-OC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1244,7 +1686,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A754D621CECAC3E000967F1 /* Build configuration list for PBXNativeTarget "ChatKit-OC" */ = {
+		9A754D621CECAC3E000967F1 /* Build configuration list for PBXNativeTarget "ChatKit-alipayOpenUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A754D631CECAC3E000967F1 /* Debug */,
