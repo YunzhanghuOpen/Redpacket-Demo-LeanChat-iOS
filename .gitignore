@@ -32,8 +32,8 @@ xcuserdata
 Third-Lib-For-Debug/
 
 #Redpacket
-ChatKit-OC/ChatKit-OC/Pods/*
-ChatKit-OC/ChatKit-OC/Podfile.lock
+ChatKit-OC/Pods
+ChatKit-OC/Podfile.lock
 *.gcda
 *.gcno
 ChatKit-OC.xcscmblueprint

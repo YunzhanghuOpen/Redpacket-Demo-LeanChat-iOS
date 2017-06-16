@@ -1,5 +1,5 @@
-platform :ios , '7.0' 
-target 'ChatKit-OC' do
+platform :ios , '8.0' 
+target 'ChatKit-alipay' do
 # ignoring warning from pods
 inhibit_all_warnings!
 
@@ -23,7 +23,8 @@ pod "FXForms", "~> 1.2.14"
 
 end
 
-target 'ChatKit-OC-JDpay' do
+
+target 'ChatKit-JDpay' do
     # ignoring warning from pods
     inhibit_all_warnings!
     
@@ -46,4 +47,3 @@ target 'ChatKit-OC-JDpay' do
     pod "FXForms", "~> 1.2.14"
     
 end
-
