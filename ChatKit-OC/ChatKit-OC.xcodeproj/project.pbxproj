@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		366C07EC5C2DB7B053BE7EA8 /* libPods-ChatKit-alipayOpenUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 384061A89F41743E1E559D1C /* libPods-ChatKit-alipayOpenUI.a */; };
 		5690CA20DDF965FF28638A12 /* libPods-ChatKit-JDpay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F13BF53324DBE90259E43B0 /* libPods-ChatKit-JDpay.a */; };
 		84AE89AA1EF1314A00E1A666 /* AVIMTypedMessageRedPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AE898F1EF1314A00E1A666 /* AVIMTypedMessageRedPacket.m */; };
 		84AE89AB1EF1314A00E1A666 /* AVIMTypedMessageRedPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AE898F1EF1314A00E1A666 /* AVIMTypedMessageRedPacket.m */; };
@@ -346,7 +345,6 @@
 				9AD665CE1D2277920040A4E3 /* CoreTelephony.framework in Frameworks */,
 				9AD665CD1D22778B0040A4E3 /* MobileCoreServices.framework in Frameworks */,
 				9AD665CC1D2277830040A4E3 /* SystemConfiguration.framework in Frameworks */,
-				366C07EC5C2DB7B053BE7EA8 /* libPods-ChatKit-alipayOpenUI.a in Frameworks */,
 				BC715680A1CBE092B9DAD2DE /* libPods-ChatKit-alipay.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1420,8 +1418,6 @@
 					"\"$PODS_CONFIGURATION_BUILD_DIR/TWMessageBarManager\"",
 					"\"$PODS_CONFIGURATION_BUILD_DIR/UITableView+FDTemplateLayoutCell\"",
 					"\"$PODS_CONFIGURATION_BUILD_DIR/pop\"",
-					"\"$(SRCROOT)/../../RedpacketStaticLib\"/**",
-					"\"$(SRCROOT)/../../RedpacketStaticLib/AlipayLib\"/**",
 				);
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.chatkit.leancloud-yunzhanghu";
